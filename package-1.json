@@ -1,0 +1,17 @@
+{
+  "name": "resadresaka-peerserver",
+  "version": "3.1.0",
+  "description": "Serveur Resadresaka : signalisation PeerJS + hub WebSocket + notifications push + modération admin",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "peer": "^1.0.2",
+    "web-push": "^3.6.7",
+    "ws": "^8.18.0"
+  }
+}
